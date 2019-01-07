@@ -6,8 +6,9 @@
 <link rel="stylesheet" href="css/header.css"/>
 <link rel="stylesheet" href="css/footer.css"/>
 <link rel="stylesheet" href="css/clients.css"/>
+<link rel="stylesheet" href="css/dropdown.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha384-esnPbY6pGdWGDRkW6F6bz36U3uWswJ65URoyq3FTe3D5eDjdtcewAAslO0I9dsCe" crossorigin="anonymous">
-<title>Past Partners</title>
+<title>Our Partners</title>
 </head>
 
 <body>
@@ -25,7 +26,20 @@
             </ul>
         </nav>
     </header>
-    <div id="headerTop"></div>
+    <header class="noshow" id="header2">
+        <input id="toggle" type="checkbox">
+        <label class="toggle-container" for="toggle">
+            <span class="button button-toggle"></span>
+        </label>
+        <!-- The nav menu -->
+        <nav class="nav">
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="about.html">What Are We</a>
+            <a class="nav-item" href="services.html">Services</a>
+            <a class="nav-item" href="clients.html">Clients</a>
+            <a class="nav-item" href="contact.html">Contact VPI</a>
+        </nav>
+    </header>
 
     <div id="partnersHeader">
         <h3>Join the movement</h3>
@@ -40,13 +54,13 @@
     </div>
     <div class="partnersDescription" id="talbots">
         <div class="pDescriptionText"><p>Talbots is an American speciality retailer and direct marketer of women's clothing, shoes and fashion accessories. Talbots also started locally in Hingham, Massachusets and has since grown nation wide as well as an expanding e-commerce business. Talbots shoppers take delight in shopping for a mixture of heritage and innovation.</p></div>
-        <img class="noshow" src="img/convert/2.png"/>
+        <img class="noshow" src="img/convert/12.png"/>
         <div class="split" style="border-left:1px solid #1d3655; padding: 2px;"></div>
         <!-- <div><img src="img/1.png"></div> -->
     </div>
     <div class="partnersDescription" id="staples">
         <div class="pDescriptionText"><p>Staples, Inc. is an American multinational office supply retailing corporation. It currently comprises over 1,500 stores in North America. Headquartered in Framingham, Massachusets, Staples also does business extensively with enterprises in the United States and Canada. Staples became a member of the Fortune 500 on its tenth anniversary in 1996. Staples has also grown outside the country, having stores in Canada, Argentina, Australia, etc. </p></div>
-        <img class="noshow" src="img/convert/3.png"/>
+        <img class="noshow" src="img/convert/13.png"/>
         <div class="split" style="border-left:1px solid #1d3655; padding: 2px;"></div>
         <!-- <div><img src="img/1.png"></div> -->
     </div>
@@ -62,7 +76,7 @@
         <div class="split" style="border-left:1px solid #1d3655; padding: 2px;"></div>
         <!-- <div><img src="img/1.png"></div> -->
     </div>
-    <div id="logosHeader"><p>Listed below are some of our past partners.</p></div>
+    <div id="logosHeader"><p>Listed below are some of our other partners.</p></div>
     <div id="partners">
         <img src="img/convert/2.png">
         <img src="img/convert/3.png">
@@ -90,25 +104,10 @@
     <!-- FOOTER -->
     <div id="footer">
         <div id="flexbox">
-            <div class="footer-content" id="about">
-                <ul>
-                    <li><h4>About</h4></li>
-                    <li><a href="">Link1</a></li>
-                    <li><a href="">Link2</a></li>
-                    <li><a href="">Link3</a></li>
-                </ul>
-            </div>
-            <div class="footer-content" id="solutions">
-                <ul>
-                    <li><h4>Solutions</h4></li>
-                    <li><a href="">Link1</a></li>
-                    <li><a href="">Link2</a></li>
-                    <li><a href="">Link3</a></li>
-                </ul>
-            </div>
             <div class="footer-content" id="forms">
                 <ul>
                     <li><h4>Links</h4></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">What Are We</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="clients.html">Clients</a></li>
@@ -119,6 +118,7 @@
                 <ul>
                     <li><h4>Contact Us</h4></li>
                     <li><a href="contact.html">Inquiries</a></li>
+                    <!-- <li><a href="careers.html">Careers</a></li> -->
                     <li><a href="mailto:sales@vpi3pl.com">Email</a></li>
                     <li><a href="tel:401-521-6262">Phone: 401-521-6262</a></li>
                     <li><p>Fax: 401-331-6262</p></li>
@@ -132,5 +132,4 @@
         </div>
     </div>
 </body>
-
 </html>
