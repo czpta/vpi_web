@@ -1,0 +1,99 @@
+/*****************************************
+STYLING OF BOXES
+*****************************************/
+#container {
+    background-color: #e2e2e2;
+    width: 100%;
+    font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* Class box-container styling */
+.box-container {
+    outline: 0;
+    margin: 0 auto;
+    max-width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    z-index: 0;
+}
+.box-container h2
+{
+    font-size:25px;
+    line-height:28px;
+    margin-top:15px;
+    /*color:#000;*/
+    padding:0
+}
+.box-container img {
+    /*Specify img specifications here*/
+    float:none;
+    margin: 0 auto;
+    max-width: 100px;
+}
+/* Class Box styling */
+.box {
+    /* width: 240px; */
+    max-width: 200px;
+    height: 310px;
+    padding: 30px 25px;
+    margin: 40px 11px;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+    background-color: #e6eaed;
+    flex: 1 1 15%;
+    text-align: center;
+}
+.box:hover {
+    background: #f8f8f8;
+    cursor: pointer;
+}
+/* Content of Boxes */
+/* .box-content {
+    z-index: 2;
+} */
+/*****************************************
+END OF BOX STYLING
+*****************************************/
+
+/*****************************************
+Box Toggle Styling
+When user clicks on box, this will open up
+NOTE: boxTogggled is the effect of toggling the box,
+hence the boxToggle class
+*****************************************/
+.boxToggled {
+    background-color: #C6CACE;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -25px;
+    height: inherit;
+    width: 100%;
+}
+.boxToggled p {
+    padding-top: 2px;
+    text-align: center;
+    max-height: 80%;
+}
+span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/*****************************************
+Mobile
+*****************************************/
+@media screen and (max-width: 450px) {
+    .box-container {
+        display: block;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        /* justify-content: center; */
+    }
+    .box {
+        /* justify-content: center; */
+    }
+}

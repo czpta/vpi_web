@@ -1,0 +1,97 @@
+/*****************************************
+STYLING OF services.html document
+*****************************************/
+html * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    /*Accent Color: e2e2e2 */
+    /* background-color: #e2e2e2; */
+    /*Background Color: f2f2f2 */
+    /* background-color: #f2f2f2; */
+}
+@viewport {
+    width: device-width;
+}
+body {
+    background-color: #f2f2f2;
+}
+#box-header {
+    margin: 0 auto;
+    width: 100%;
+    padding: 1em;
+    font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#box-header h2 {
+    color: #1d3655;
+    font-size:5em;
+    text-align: center;
+}
+
+#box-header p {
+    padding-top: .5em;
+    padding-bottom: .6em;
+    text-align: center;
+    font-size: 1.3em;
+    height: 100%;
+}
+#section3 {
+    width: 100%;
+    padding: 1em;
+    font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#section3 h3 {
+    padding-top: 2em;
+    color: #1d3655;
+    font-size:2.5em;
+    text-align: center;
+}
+#section3 p {
+    padding-top: .5em;
+    text-align: center;
+    font-size: 1.3em;
+    height: 100%;
+}
+#section3 img {
+    display: block;
+    max-height: 70vh;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+/*****************************************
+Desktop-specific
+*****************************************/
+@media screen and (min-width: 1000px) {
+    #section3 {
+        display: flex;
+    }
+    #section3 h3 {
+        padding-top: 3em;
+    }
+    #section3 p {
+        padding-bottom: 40px;
+    }
+    #section3 img {
+        max-width: 50vw;
+    }
+}
+
+/*****************************************
+Mobile
+*****************************************/
+@media screen and (max-width: 450px) {
+    #header2 {
+        position: relative;
+        display: block;
+        background-color: #24292e;
+        font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    #header {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    #logo {
+        display: none;
+    }
+}

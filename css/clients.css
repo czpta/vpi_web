@@ -1,0 +1,145 @@
+body {
+    /* background-color: #e2e2e2; */
+    background-color: #f2f2f2;
+}
+
+/*****************************************
+"header" content
+*****************************************/
+#partnersHeader {
+    margin: 0 auto;
+    padding: 1em;
+    height: 15em;
+    /* background-color: #e2e2e2; */
+}
+#partnersHeader h3 {
+    color: #1d3655;
+    font-size: 3.5em;
+    padding-top: 1.5em;
+    /* text-align: center; */
+}
+#partnersHeader p {
+    font-size: 1.5em;
+    /* text-align: center; */
+}
+
+/*****************************************
+STYLING OF Description of Partners
+Think of this as a wrapper for the partner description.
+*****************************************/
+.partnersDescription {
+    display: flex;
+    padding: 1em;
+    height: 100%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    justify-content: left;
+    font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.noshow {
+    display: none;
+}
+#walmart {
+    background:url('../img/convert/2.png') #e2e2e2 80% 50% no-repeat fixed;
+    /* background-image: url('../img/1.png');
+    background-repeat: no-r */
+}
+#talbots {
+    background:url('../img/convert/12.png')  80% 50% no-repeat fixed;
+}
+#staples {
+    background:url('../img/convert/13.png') #e2e2e2 80% 50% no-repeat fixed;
+    /* background-image: url('../img/1.png');
+    background-repeat: no-r */
+}
+#tjmaxx {
+    background:url('../img/convert/8.png')  80% 50% no-repeat fixed;
+}
+#FGX {
+    background:url('../img/convert/9.png') #e2e2e2  80% 50% no-repeat fixed;
+}
+.pDescriptionText {
+    width: 45%;
+    font-size: 1.2em;
+    padding: 1em;
+    line-height: 1.4;
+    min-height: 25vh;
+}
+
+/*****************************************
+STYLING OF logos
+*****************************************/
+#logosHeader p {
+    font-size: 1em;
+    color: #1d3655;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-left: 15px;
+    display: block;
+    font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#partners {
+    flex-wrap: wrap;
+}
+#partners img {
+    padding: 1em;
+    width: 62px;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+/*****************************************
+Mobile
+*****************************************/
+@media screen and (max-width: 450px) {
+    #header2 {
+        position: relative;
+        display: block;
+        background-color: #24292e;
+        font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    #header {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    #logo {
+        display: none;
+    }
+    #partnersHeader {
+        height: fit-content;
+    }
+    .partnersDescription {
+        display: inline-block;
+    }
+    .pDescriptionText {
+        width: auto;
+    }
+    #walmart {
+        background:url('') #e2e2e2;
+    }
+    #talbots {
+        background:url('');
+    }
+    #staples {
+        background:url('') #e2e2e2;
+    }
+    #tjmaxx {
+        background:url('');
+    }
+    #FGX {
+        background:url('') #e2e2e2;
+    }
+    #partners {
+        padding-left: 20px;
+    }
+    .noshow {
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .split {
+        display: none;
+    }
+}

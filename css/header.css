@@ -1,0 +1,49 @@
+/* #headerTop {
+    height: 120px;
+} */
+#header {
+    width: 100%;
+    background-color: #24292e;
+    height: 4.3em;
+    position: fixed;
+    z-index: 2;
+    font-family:" HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#header a {
+    color: white;
+    font-size: .9em;
+}
+#headerTop {
+    height: 4.3em;
+}
+#logo img {
+    height: 1.5em;
+    /* vertical-align: super; */
+    margin-left: 0px;
+}
+#nav { width: 23em; float: right; margin-top: 1.5%; }
+#nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+}
+#nav li{
+margin-top: 9px;
+float: left;
+padding-left: 21px;
+}
+#nav li a.active {
+     opacity:1;
+     text-decoration: none;
+ }
+#nav li a:hover {
+    opacity:1;
+}
+#logo a {
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family:"";
+    font-weight: bold;
+}
